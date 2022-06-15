@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>HTML5 snake - Canvas Snake Game</title>
+<!--[if IE]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<link rel="stylesheet" href="page.css" type="text/css">
+<link rel="manifest" href="/manifest.json">
+<script type="module">
+  import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+  const el = document.createElement('pwa-update');
+  document.body.appendChild(el);
+</script>
+</head>
+<body>
+
+<h1>html5-snake</h1>
+<p><a href="http://en.wikipedia.org/wiki/HTML5">HTML5</a> variation of the classic <a href="http://en.wikipedia.org/wiki/Snake_(video_game)">snake game</a>.</p>
+<div id="Score">
+  <h2>Score</h2>
+  <div id="puntos">  </div>
+
+</div>
+<div>
+  <canvas id="the-game" width="320" height="240">
+</div>
+
+<p>Control snake with arrow keys, WASD, or HJKL (vim keys).</p>
+
+<p>New food may appear under snake, uncoil to reveal.</p>
+
+<p>Collect the food to grow and increase speed.</p>
+
+
+
+
+<p>&copy; 2013 - <a href="http://JDStraughan.com">JDStraughan.com</a> - <a href="https://github.com/JDStraughan/html5-snake">Source on GitHub</a></p>  
+<script type="text/javascript" src="game.js"></script>
+</body>
+</html>
